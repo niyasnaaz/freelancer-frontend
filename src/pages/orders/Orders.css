@@ -1,0 +1,60 @@
+.orders {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 120px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.orders .container {
+  width: 1400px;
+  padding: 50px 0px;
+}
+
+.orders .container .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orders .container .title button {
+  background-color: #1dbf73;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.orders .container table {
+  width: 100%;
+}
+
+.orders .container table tr {
+  height: 50px;
+}
+
+.orders .container table tr th {
+  text-align: left;
+}
+
+.orders .container table tr td sup {
+  font-size: 12px;
+}
+
+.orders .container table tr td .image {
+  width: 100px;
+  height: 55px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.orders .container table tr td .message {
+  width: 30px;
+  cursor: pointer;
+  margin: 40px 0;
+}
+
+.orders .container table tr:nth-child(even) {
+  background-color: #1dbf730f;
+}

@@ -1,0 +1,124 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  transition: 0.5s all ease;
+  width: 100%;
+}
+
+.navbar.active {
+  background-color: white;
+  color: black;
+}
+
+.navbar.active .btn {
+  background-color: white !important;
+  color: #1dbf73 !important;
+  border: 1px solid #1dbf73 !important;
+  font-weight: bold;
+}
+.navbar.active .container .links .btn:hover{
+  background-color: #1dbf73;
+  color: white;
+}
+
+.navbar .container {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.navbar .container .logo {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+
+.navbar .container .logo .dot {
+  font-weight: bold;
+  color: #1dbf73;
+}
+
+.navbar .container .links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.navbar .container .links span {
+  white-space: nowrap;
+}
+
+.navbar .container .links .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar .container .links .user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar .container .links .user .options {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 999;
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+  font-weight: 300;
+  color: gray;
+}
+
+.navbar .container .links .btn {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar .container .links .btn:hover {
+  background-color: #1dbf73;
+  border-color: #1dbf73;
+}
+
+.navbar hr {
+  width: calc(100% - 2px);
+  height: 0;
+  border-top: 0.5px solid #ebe9e9;
+  border-bottom: 0.5px solid #ebe9e9;
+}
+
+.navbar .menu {
+  width: 1400px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}

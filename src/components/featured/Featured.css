@@ -1,0 +1,117 @@
+.featured {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  transition: background-image .5s ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  .featured .container {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .featured .container .left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .featured .container .left h1 {
+    font-size: 50px;
+    width: 700px;
+  }
+  
+  .featured .container .left h1 span {
+    font-style: italic;
+    font-weight: 300;
+  }
+  
+  .featured .container .left .search {
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+  }
+  
+  .featured .container .left .search .searchInput {
+    display: flex;
+    color: black;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-style: italic; 
+    font-family: "unset";
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  
+  
+  .featured .container .left .search .searchInput input {
+    border: none;
+    outline: none;
+    width: 200px;
+  }
+  
+  .featured .container .left .search .searchInput input::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-style: italic; 
+    font-weight: 400;
+  }
+  
+  .featured .container .left .search button {
+    height: 50px;
+    width: 70px;
+    border: none;
+    background-color: #1dbf73;
+    color: white;
+    align-self: flex-end;
+    cursor: pointer;
+  }
+  
+  .featured .container .left .popular {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .featured .container .left .popular span {
+    width: max-content;
+    font-size: 18px;
+    margin-top: 28px;
+  }
+  
+  .featured .container .left .popular button {
+    width: max-content;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 16px;
+  }
+  .featured .container .left .popular button:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  .featured .container .right {
+    height: 100%;
+  }
+  
+  .featured .container .right img {
+    height: 100%;
+    object-fit: contain;
+  }
+  
+
+
+

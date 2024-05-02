@@ -1,0 +1,53 @@
+/* Success.css */
+
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .success-message {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .success-icon {
+    color: #ffffff; /* Green color */
+    background-color: #28a745;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 55px; /* Adjust size as needed */
+    margin-bottom: 20px; /* Add spacing between icon and text */
+    animation: scaleUp 0.5s ease-in-out; /* Apply animation */
+  }
+  
+  .success-text {
+    font-size: 30px;
+    font-style: italic;
+    font-family: initial;
+    font-weight: bold;
+  }
+  p{
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

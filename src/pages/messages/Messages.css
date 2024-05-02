@@ -1,0 +1,75 @@
+.messages {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.messages .container {
+  width: 1400px;
+  padding: 50px 0px;
+}
+
+.messages .container .title {
+  display: flex;
+  justify-content: space-between;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.messages .container .title button {
+  background-color: #1dbf73;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.messages .container table {
+  width: 100%;
+}
+
+.messages .container table tr {
+  height: 100px;
+}
+
+.messages .container table tr th {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.messages .container table tr td {
+  padding: 10px;
+}
+
+.messages .container table tr td:first-child {
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.messages .container table tr td:nth-child(2),
+.messages .container table tr td:nth-child(3) {
+  color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.messages .container table tr button {
+  background-color: #1dbf73;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+.messages .container table tr button:hover{
+  background-color: #009d54;
+}
+
+.messages .container table tr.active {
+  background-color: #1dbf730f;
+}
